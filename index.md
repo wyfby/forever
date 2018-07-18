@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>测试</title>
+	<style type="text/css">
+		body{
+			background-image:url(image/IMG20180717165200.jpg);
+			background-size: 100% 100%;
+		/*	height: 100%;*/
+		}
+		html{
+			height: 100%;
+		}
+		@keyframes myfirst{
+			0% {opacity: 0}
+			20% {opacity: 100}
+			40%{opacity: 0}
+			60% {opacity: 0}
+			80% {opacity: 0}
+			100% {opacity: 0}
+		}
+		@keyframes mysecond{
+			0% {opacity: 0}
+			20% {opacity: 0}
+			40%{opacity: 100}
+			60% {opacity: 0}
+			80% {opacity: 0}
+			100% {opacity: 0}
+		}
+		@keyframes mythird{
+			0% {opacity: 0}
+			20% {opacity: 0}
+			40%{opacity: 0}
+			60% {opacity: 100}
+			80% {opacity: 0}
+			100% {opacity: 0}
+		}
+		@keyframes myfourth{
+			0% {opacity: 0}
+			20% {opacity: 0}
+			40%{opacity: 0}
+			60% {opacity: 0}
+			80% {opacity: 100}
+			100% {opacity: 0}
+		}
+		h2{
+			text-align: center;
+		}
+		p{
+			font-size: 60px;
+			position: absolute;
+			width: 100%;
+			text-align: center;
+		}
+		#one{
+			animation: myfirst 10s infinite;
+		}
+		#two{
+			animation: mysecond 10s infinite;
+		}
+		#three{
+			animation: mythird 10s infinite;
+		}
+		#four{
+			animation: myfourth 10s infinite;
+		}
 
-You can use the [editor on GitHub](https://github.com/wyfby/forever/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+	</style>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
+<body>
+	<audio src="wam/僕が死のうと思ったのは (曾经我也想过一了百了) - 中島美嘉.mp3" controls="controls" autoplay="autoplay"></audio>
+		<h2>爱成呼吸</h2>
+	<p id="one">曾经我也想过一了百了</p>
+	<p id="two">可我又回到了你的身旁</p>
+	<p id='three'>愿你我携手余生</p>
+	<p id='four'>不负时光不负卿</p>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wyfby/forever/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
